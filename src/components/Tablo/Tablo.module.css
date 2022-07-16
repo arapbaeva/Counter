@@ -1,10 +1,11 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.App {
+.wrapper {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -17,3 +18,50 @@
     background-color: #282c34;
 
 }
+
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    display: flex;
+    gap: 1rem;
+    height: 50px;
+
+}
+
+.button button {
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #282c34;
+}
+
+> * {
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    font-weight: bold;
+    font-size: 2rem;
+    color: inherit;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
